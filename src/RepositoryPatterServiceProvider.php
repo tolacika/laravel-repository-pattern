@@ -1,6 +1,6 @@
 <?php
 
-namespace Salman\RepositoryPattern;
+namespace Tolacika\RepositoryPattern;
 
 use Illuminate\Support\ServiceProvider;
 use Salman\RepositoryPattern\Commands\RepositoryPattern;
@@ -19,7 +19,7 @@ class RepositoryPatterServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/resources/stubs', 'RepositoryPattern');
 
         $this->publishes([
-            __DIR__.'/resources/stubs' => resource_path('vendor/salmanzafar/stubs'),
+            __DIR__.'/resources/stubs' => resource_path('vendor/tolacika/stubs'),
 //            __DIR__.'/config/RepositoryConfig.php' => config_path('RepositoryConfig.php'),
 
         ]);

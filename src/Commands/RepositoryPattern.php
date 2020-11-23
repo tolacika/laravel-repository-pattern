@@ -1,9 +1,9 @@
 <?php
 
-namespace Salman\RepositoryPattern\Commands;
+namespace Tolacika\RepositoryPattern\Commands;
 
 use Illuminate\Console\Command;
-use Salman\RepositoryPattern\Service\RepositoryService;
+use Tolacika\RepositoryPattern\Service\RepositoryService;
 
 class RepositoryPattern extends Command
 {

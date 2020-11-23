@@ -1,6 +1,6 @@
 <?php
 
-namespace Salman\RepositoryPattern\Facades;
+namespace Tolacika\RepositoryPattern\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,41 +1,44 @@
 {
-    "name": "salmanzafar/laravel-repository-pattern",
-    "description": "Implement repository pattern with a single command",
+    "name": "tolacika/laravel-repository-pattern",
+    "description": "Implement repository pattern with a single command (Thanks to salmanzafar)",
+    "version": "1.0.0-dev",
     "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Salman Zafar",
-            "email": "salmanzafar949@gmail.com"
-        }
-    ],
     "keywords": [
         "laravel",
         "laravel5",
         "laravel6",
-        "laravel-repository-pattern",
-        "laravel-Repository-design-pattern"
+        "laravel7",
+        "laravel8",
+        "laravel-repository-pattern"
+    ],
+    "homepage": "https://github.com/tolacika/laravel-repository-pattern",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marshall <Tolacika>",
+            "email": "cmdnetwizard@gmail.com"
+        }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.5"
     },
     "require-dev": {
-        "laravel/framework": ">=5.5"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Salman\\RepositoryPattern\\": "src/"
+            "Tolacika\\RepositoryPattern\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Salman\\RepositoryPattern\\RepositoryPatterServiceProvider"
+                "Tolacika\\RepositoryPattern\\RepositoryPatterServiceProvider"
             ],
             "aliases": {
-                "RepositoryPattern": "Salman\\RepositoryPattern\\Facades\\RepositoryPattern"
+                "RepositoryPattern": "Tolacika\\RepositoryPattern\\Facades\\RepositoryPattern"
             }
         }
     }

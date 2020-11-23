@@ -1,14 +1,13 @@
 <?php
 
-namespace Salman\RepositoryPattern\Service;
-
+namespace Tolacika\RepositoryPattern\Service;
 
 
 class RepositoryService {
 
     protected static function getStubs($type)
     {
-        return file_get_contents(resource_path("vendor/salmanzafar/stubs/$type.stub"));
+        return file_get_contents(resource_path("vendor/tolacika/stubs/$type.stub"));
     }
 
     public static function ImplementNow($name)
